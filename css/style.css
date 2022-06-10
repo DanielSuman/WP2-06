@@ -1,0 +1,35 @@
+@font-face{
+    font-family:Faktur;
+    src: url("../fonts/faktur.ttf");
+}
+body {
+    background-color: black;
+    background: url("../img/wp.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.seznam {
+    font-family: faktur;
+    background-color: white;
+    background-image: url("../img/bg.jpg");
+    border: solid black 5px;
+    width:1000px;
+    padding-left:50px;
+    padding-right:50px;
+    margin:auto;
+}
+.title {
+    font-family:Faktur;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 25px;
+}
+p {
+    font-size:20px;
+    font-family:Faktur;
+}
